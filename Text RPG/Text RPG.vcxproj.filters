@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Menus">
+      <UniqueIdentifier>{e9a8e0d7-9c47-47e5-b462-3757e7de5e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{97de9816-b238-421a-866d-34b0d2d00254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menus">
+      <UniqueIdentifier>{f56c4281-3d10-4362-b4b6-0134ed59d90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menus\Character">
+      <UniqueIdentifier>{89328793-37de-4a04-b33c-f43119f43933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menus\Character">
+      <UniqueIdentifier>{2cbb4cc9-767a-41c6-a0cc-9af4a0bc338e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Databases">
+      <UniqueIdentifier>{fd9b1b77-1120-45cb-87cf-7b964e40926c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_LoadSave.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_Main.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_Character.cpp">
+      <Filter>Source Files\Menus\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_Status.cpp">
+      <Filter>Source Files\Menus\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_MapSelect.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_Inventory.cpp">
+      <Filter>Source Files\Menus\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_equipement.cpp">
+      <Filter>Source Files\Menus\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_Skills.cpp">
+      <Filter>Source Files\Menus\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="combat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_shop.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="menu_LoadSave.h">
+      <Filter>Header Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_Main.h">
+      <Filter>Header Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_Character.h">
+      <Filter>Header Files\Menus\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_Status.h">
+      <Filter>Header Files\Menus\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_MapSelect.h">
+      <Filter>Header Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="item_ID.h">
+      <Filter>Header Files\Databases</Filter>
+    </ClInclude>
+    <ClInclude Include="item_dataBase.h">
+      <Filter>Header Files\Databases</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_Inventory.h">
+      <Filter>Header Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_equipement.h">
+      <Filter>Header Files\Menus\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="skill_ID.h">
+      <Filter>Header Files\Databases</Filter>
+    </ClInclude>
+    <ClInclude Include="skill_dataBase.h">
+      <Filter>Header Files\Databases</Filter>
+    </ClInclude>
+    <ClInclude Include="skill_formulas.h">
+      <Filter>Header Files\Databases</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_Skills.h">
+      <Filter>Header Files\Menus\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="skill_Info.h">
+      <Filter>Header Files\Databases</Filter>
+    </ClInclude>
+    <ClInclude Include="mob_dataBase.h">
+      <Filter>Header Files\Databases</Filter>
+    </ClInclude>
+    <ClInclude Include="map_ID.h">
+      <Filter>Header Files\Databases</Filter>
+    </ClInclude>
+    <ClInclude Include="map_dataBase.h">
+      <Filter>Header Files\Databases</Filter>
+    </ClInclude>
+    <ClInclude Include="combat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_shop.h">
+      <Filter>Header Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="useSkill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="buffs.h">
+      <Filter>Header Files\Databases</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Todo.txt" />
+  </ItemGroup>
+</Project>
