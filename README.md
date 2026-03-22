@@ -22,3 +22,4 @@ This console RPG contains a few features:
 4) Choose a slot to create a new save
 5) Have fun!
    
+## Note: This program is only supported by WindowsOS
